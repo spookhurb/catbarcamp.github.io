@@ -27,7 +27,7 @@ section: blog
         <ul class="nav nav-pills">
           {% for tag in page.tags %}
 	  <li><a href="{{ site.baseurl }}/tag/{{ tag }}.html">{{ tag }}</a></li>
-          {% endfor %}
+	  {% endfor %}
         </ul>
   </div>
 </div>
